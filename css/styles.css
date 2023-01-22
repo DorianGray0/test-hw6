@@ -831,7 +831,7 @@ button {
 /* --------------------------------------------------MODAL-FORM */
 
 .modal-text {
-  margin-bottom: 32px;
+  margin-bottom: 36px;
 
   font-weight: 500;
   line-height: 1.5;
@@ -864,22 +864,22 @@ button {
 .topic-label-text {
   position: absolute;
   top: 50%;
-  left: 38px;
-  transform: translateY(-50%);
+  left: 42px;
+  transform: translateY(-50%) scale(1.2);
 }
 
 .modal-input:focus ~ .topic-label-text {
-  transform: translate(-90%, -225%) scale(1.25);
+  transform: translate(-90%, -225%) scale(1);
   color: var(--color-accent);
 }
 
 .modal-input:not(:placeholder-shown):not(:focus):valid ~ .topic-label-text {
-  transform: translate(-90%, -225%) scale(1.25);
+  transform: translate(-90%, -225%) scale(1);
   color: rgba(3, 75, 3, 0.822);
 }
 
 .modal-input:not(:placeholder-shown):not(:focus):invalid ~ .topic-label-text {
-  transform: translate(-90%, -225%) scale(1.25);
+  transform: translate(-90%, -225%) scale(1);
   color: rgba(170, 13, 13, 0.871);
 }
 
