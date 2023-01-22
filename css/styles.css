@@ -831,7 +831,7 @@ button {
 /* --------------------------------------------------MODAL-FORM */
 
 .modal-text {
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 
   font-weight: 500;
   line-height: 1.5;
@@ -845,7 +845,7 @@ button {
 }
 
 .modal-field {
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 
 .modal-field:nth-child(3) {
