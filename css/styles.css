@@ -873,6 +873,11 @@ button {
   color: var(--color-accent);
 }
 
+/* .modal-input-wrap:focus-within .topic-label-text {
+  transform: translate(-90%, -225%) scale(1);
+  color: var(--color-accent);
+} */
+
 .modal-input:not(:placeholder-shown):not(:focus):valid ~ .topic-label-text {
   transform: translate(-90%, -225%) scale(1);
   color: rgba(3, 75, 3, 0.822);
@@ -928,7 +933,11 @@ button {
   transition: fill 250ms var(--cubic-bezier-main);
 }
 
-.modal-input:focus + .icon-input {
+/* .modal-input:focus + .icon-input {
+  fill: var(--color-accent);
+} */
+
+.modal-input-wrap:focus-within .icon-input {
   fill: var(--color-accent);
 }
 
