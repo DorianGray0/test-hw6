@@ -845,7 +845,7 @@ button {
 }
 
 .modal-field {
-  margin-bottom: 26px;
+  margin-bottom: 28px;
 }
 
 .modal-field:nth-child(3) {
@@ -983,7 +983,7 @@ button {
 .modal-check-label a {
   text-decoration: underline;
   color: var(--color-accent);
-  margin-left: 4px;
+  /* margin-left: 4px; */
 }
 
 .chek-icon-wrap {
@@ -1007,6 +1007,12 @@ button {
   background-color: var(--color-secondary-accent);
   border-color: transparent;
   fill: var(--second-background-color);
+}
+
+/*-- Focused */
+
+.modal-check-input:focus + .modal-check-label > .chek-icon-wrap {
+  box-shadow: 0 0 0 0.2em #7ed321;
 }
 
 /* .modal-check-icon {
