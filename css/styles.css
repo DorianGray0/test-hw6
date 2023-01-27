@@ -641,18 +641,18 @@ button {
   padding-bottom: 120px;
 }
 
-.services-list {
+/* .services-list {
   margin-bottom: 72px;
 
   display: flex;
   gap: 24px;
   justify-content: center;
-}
+} */
 
 /* .services-item {
 } */
 
-.services-button {
+/* .services-button {
   padding: 12px 24px;
 
   font-family: 'Roboto', sans-serif;
@@ -676,6 +676,64 @@ button {
 .services-button:focus {
   box-shadow: var(--box-shadow-second);
   border-color: var(--color-secondary-accent);
+} */
+
+/* ------------FILTER BUTTON  */
+
+.filter-field {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+
+  margin-bottom: 72px;
+}
+
+.role-group {
+  position: relative;
+}
+
+.filter-input {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.filter-label {
+  padding: 12px 24px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+
+  background-color: var(--second-background-color);
+  border: 1px solid var(--color-fon-img);
+  border-radius: 4px;
+  outline: transparent;
+  cursor: pointer;
+
+  transition: box-shadow 250ms var(--cubic-bezier-main),
+    background-color 250ms var(--cubic-bezier-main), color 250ms var(--cubic-bezier-main),
+    border-color 250ms var(--cubic-bezier-main);
+}
+
+.filter-label:hover,
+.filter-label:focus {
+  color: var(--second-background-color);
+  background-color: var(--color-accent);
+  box-shadow: var(--box-shadow-second);
+  border-color: var(--color-secondary-accent);
+}
+
+.filter-input:checked + .filter-label {
+  color: var(--second-background-color);
+
+  background-color: var(--color-accent);
+  border: transparent;
 }
 
 /* -------------OPTIONS (CARDS) */
