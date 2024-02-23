@@ -366,14 +366,13 @@ button {
   flex-basis: calc((100% - 72px) / 4);
   box-shadow: var(--box-shadow-first);
   border-radius: 0px 0px 4px 4px;
+  background-color: var(--first-background-color);
 }
 
 .team-wrap {
   padding: 32px 16px;
 
   letter-spacing: 0.02em;
-  background-color: var(--first-background-color);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-subject {
