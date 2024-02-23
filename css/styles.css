@@ -132,6 +132,8 @@ button {
   padding-bottom: 24px;
 
   transition: color 250ms var(--cubic-bezier-main);
+
+  font-weight: 800;
 }
 
 .header-logo:hover,
@@ -164,7 +166,7 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
 
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-headings);
@@ -245,7 +247,7 @@ button {
   padding: 16px 32px;
 
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.04em;
@@ -300,6 +302,7 @@ button {
 .functional-title {
   margin-bottom: 8px;
 
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -378,6 +381,7 @@ button {
 .team-subject {
   margin-bottom: 8px;
 
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-headings);
@@ -703,7 +707,7 @@ button {
   padding: 12px 24px;
 
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
@@ -799,6 +803,7 @@ button {
   margin-bottom: 8px;
 
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
