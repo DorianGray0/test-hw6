@@ -704,6 +704,7 @@ button {
 }
 
 .filter-label {
+  display: block;
   padding: 12px 24px;
 
   font-family: 'Roboto', sans-serif;
